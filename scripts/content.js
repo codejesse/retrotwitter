@@ -36,7 +36,6 @@ const updatePostTextTest = () => {
     "css-1qaijid r-bcqeeo r-qvutc0 r-poiln3"
   ); // Target the span with the class (modify if needed)
 
-  // Update span text if it contains "Post" (case-insensitive)
   if (span && span.textContent === "Lists") {
     span.innerText = "Tweet"; // Update text content to "Tweet"
   } else {
